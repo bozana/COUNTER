@@ -373,7 +373,7 @@ namespace COUNTER {
          */
         public function asDOMDocument()
         {
-            throw new Exception(get_class($this) . ' does not implement asDOMDocument()');
+            throw new \Exception(get_class($this) . ' does not implement asDOMDocument()');
         }
 
         /**
